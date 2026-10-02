@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline: none;
+}
+
+html,body {
+    height:100%;
+}
+
+nav.menu-navigation ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2rem;
+}
+
+nav.menu-navigation ul li {
+    padding:0 10px;
+    list-style-type:none;
+}
+
+nav.menu-navigation ul li a {
+    text-decoration: none;
+    color:#eb2d2d;
+    font-size: 1.3rem;
+    opacity: 1;
+    font-family: sans-serif;
+}
+
+nav.menu-navigation ul li a:hover {
+    opacity:0.8;
+}
